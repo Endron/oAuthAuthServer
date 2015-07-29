@@ -1,0 +1,10 @@
+.gradle/
+.idea/
+build/classes/
+build/dependency-cache/
+build/distributions/
+build/libs/*.jar.original
+build/scripts/
+build/tmp/
+gradle/
+src/
