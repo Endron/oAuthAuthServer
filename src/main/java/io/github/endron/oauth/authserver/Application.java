@@ -36,6 +36,8 @@ public class Application extends AuthorizationServerConfigurerAdapter {
                     .formLogin()
                         .permitAll()
                     .and()
+                    .csrf()
+                        .disable()
                     .authorizeRequests()
                         .anyRequest().authenticated();
         }
